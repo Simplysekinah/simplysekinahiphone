@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone</title>
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <div class="phonebody" id="phonebody">
+        <div>
+            <div class="phonetop"></div>
+            <div class="topside">
+
+                <div id="glo">
+                    <marquee behavior="" direction="">glo</marquee>
+                </div>
+                <div class="icons" id="icons">
+                    <div class="wifi"><span class="material-symbols-outlined">signal_cellular_alt</span></div>
+                    <div class="lte"><span class="material-symbols-outlined">lte_mobiledata </span></div>
+                    <div class="battery"><span class="material-symbols-outlined"> battery_horiz_075</span></div>
+                </div>
+            </div>
+        </div>
+        <div id="firstscreen">
+            <div class="date">Thursday,July 6</div>
+            <div class="time">9:39</div>
+            <div class="light">
+                <div class="torchlight"><span class="material-symbols-outlined">flashlight_on </span></div>
+                <div class="camera"><span class="material-symbols-outlined"> photo_camera </span></div>
+                <div id="down"></div>
+            </div>
+        </div>
+        <div id="secondscreen">
+            <div class="lock"></div>
+            <div class="write">Swipe up for Face ID or <br> Enter Password</div>
+            <div id="hole" class="hole">
+            </div>
+            <div id="wrong">wrong password</div>
+            <div class="button">
+                <div class="firstrow">
+                    <button class="one" onclick="show(1)" value="1">1</button>
+                    <button class="one" onclick="show(2)" value="2">2</button>
+                    <button class="one" onclick="show('3')" value="3">3</button>
+                </div>
+                <div class="secondrow">
+                    <button class="one" onclick="show('4')" value="4">4</button>
+                    <button class="one" onclick="show('5')" value="5">5</button>
+                    <button class="one" onclick="show('6')" value="6">6</button>
+                </div>
+                <div class="thirdrow">
+                    <button class="one" onclick="show('7')" value="7">7</button>
+                    <button class="one" onclick="show('8')" value="8">8</button>
+                    <button class="one" onclick="show('9')" value="9">9</button>
+                </div>
+                <button class="zero" onclick="show('0')" value="0">0</button>
+                <div class="downs">
+                    <div>Emergency</div>
+                    <button onclick="clearPass()" id="cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div id="thirdscreen">
+            <div class="side">
+                <div class="leftside">
+                    <div class="ib">
+                        <div>Ibadan</div>
+                        <div><span class="material-symbols-outlined location"> near_me</span></div>
+                    </div>
+                    <div>
+                        <div>28</div>
+                        <div class="celsius"></div>
+                    </div>
+                    <div>
+                        <div>Mostly Cloudy</div>
+                        <div>
+                            <span>H:39</span>
+                            <span>L:25</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightside"></div>
+            </div>
+            <div class="hh">
+                <div class="lol">
+                    <img src="pic.jfif" alt="" class="photo" id="gen">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+                <div class="lol">
+                    <img src="photo.png" alt="" class="photo">
+                    <div>photo</div>
+                </div>
+            </div>
+            <div class="mid">
+                <div><span class="material-symbols-outlined">search</span></div>
+                <div class="search">Search</div>
+            </div>
+            <div class="pass">
+                <div class="lols">
+                    <button id="call">
+                        <img src="calp.png" alt="" class="photo1">
+                    </button>
+                </div>
+                <div class="lols">
+                    <img src="photo.png" alt="" class="photo">
+                </div>
+                <div class="lols">
+                    <img src="photo.png" alt="" class="photo">
+                </div>
+                <div class="lols">
+                    <img src="photo.png" alt="" class="photo">
+                </div>
+            </div>
+        </div>
+        <div id="forthscreen">
+            <div id="spaces">
+                <p id="space"></p>
+            </div>
+            <div class="buttons">
+                <div class="firstrow">
+                    <button class="three">1</button>
+                    <button class="three">2</button>
+                    <button class="three">3</button>
+                </div>
+                <div class="secondrow">
+                    <button class="three">4</button>
+                    <button class="three">5</button>
+                    <button class="three">6</button>
+                </div>
+                <div class="thirdrow">
+                    <button class="three">7</button>
+                    <button class="three">8</button>
+                    <button class="three">9</button>
+                </div>
+                <div class="thirdrow">
+                    <button class="three">*</button>
+                    <button class="three">0</button>
+                    <button class="three">#</button>
+                </div>
+                <img src="calp.png" alt="" class="photos" id="dialing">
+
+            </div>
+        </div>
+        <div id="dialScreen">
+            <div id="calling">
+                <div id="shownumber">
+                    <p></p>
+                </div>
+                <div id="center">
+                    <div id="cen">
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes"> keyboard_voice</span>
+                            <p>mute</p>
+                        </div>
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes">keyboard </span>
+                            <p>keypad</p>
+                        </div>
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes"> volume_up </span>
+                            <p>Speaker</p>
+                        </div>
+                    </div>
+                    <div id="cen">
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes"> keyboard_voice</span>
+                            <p>mute</p>
+                        </div>
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes">keyboard </span>
+                            <p>keypad</p>
+                        </div>
+                        <div id="mute">
+                            <span class="material-symbols-outlined" id="mutes"> volume_up </span>
+                            <p>Speaker</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="photo.png" alt="" class="photos" id="dialing">
+                </div>
+            </div>
+            <div>
+                <div id="aircall">
+                    <div id="loader"></div>
+                    <p id="pw">Please wait</p>
+                </div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="fifthscreen">
+            <div id="fifthscreen2">
+
+                <img src="photo.png" alt="" id="image1" class="images">
+                <img src="calp.png" alt="" id="image2" class="images">>
+                <img src="cake.jfif" alt="" id="image3" class="images">>
+                <video src="" id="image4" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image5" class="images">>
+                <img src="photo.png" alt="" id="image6" class="images">>
+                <img src="myself2.jfif" alt="" id="image7" class="images">>
+                <video src="" id="image8" class="images"></video>></video>
+                <img src="ALLSUGAR TREATS-07.png" alt="" id="image9" class="images">>
+                <img src="pic.jfif" alt="" id="image10" class="images">>
+                <img src="pic.jfif" alt="" id="image11" class="images">>
+                <img src="myself.jfif" alt="" id="image12" class="images">>
+                <img src="myself2.jfif" alt="" id="image13" class="images">>
+                <img src="calp.png" alt="" id="image14" class="images">>
+                <video src="cake.jfif" id="image15" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image16" class="images">>
+                <img src="myself2.jfif" alt="" id="image17" class="images">>
+                <img src="cake.jfif" alt="" id="image18" class="images">>
+                <img src="myself2.jfif" alt="" id="image19" class="images">>
+                <video src="" id="image20" class="images"></video>></video>
+                <img src="pic.jfif" alt="" id="image21" class="images">>
+                <img src="cake.jfif" alt="" id="image22" class="images">>
+                <img src="myself.jfif" alt="" id="image23" class="images">>
+                <img src="myself2.jfif" alt="" id="image24" class="images">>
+                <video src="pic.jfif" id="image25" class="images"></video>></video>
+                <img src="ALLSUGAR TREATS-07.png" alt="" id="image26" class="images">>
+                <img src="myself2.jfif" alt="" id="image27" class="images">>
+                <img src="myself.jfif" alt="" id="image28" class="images">>
+                <img src="calp.png" alt="" id="image29" class="images">>
+                <video src="" id="image30" class="images"></video>></video>
+                <img src="pic.jfif" alt="" id="image31" class="images">>
+                <img src="pic.jfif" alt="" id="image32" class="images">>
+                <img src="myself.jfif" alt="" id="image33" class="images">>
+                <img src="myself2.jfif" alt="" id="image34" class="images">>
+                <img src="calp.png" alt="" id="image35" class="images">>
+                <video src="cake.jfif" id="image36" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image37" class="images">>
+                <img src="myself2.jfif" alt="" id="image38" class="images">>
+                <img src="cake.jfif" alt="" id="image39" class="images">>
+                <img src="myself2.jfif" alt="" id="image40" class="images">>
+                <img src="pic.jfif" alt="" id="image41" class="images">>
+                <img src="pic.jfif" alt="" id="image42" class="images">>
+                <img src="myself.jfif" alt="" id="image43" class="images">>
+                <img src="myself2.jfif" alt="" id="image44" class="images">>
+                <img src="calp.png" alt="" id="image45" class="images">>
+                <video src="cake.jfif" id="image46" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image47" class="images">>
+                <img src="myself2.jfif" alt="" id="image48" class="images">>
+                <img src="cake.jfif" alt="" id="image49" class="images">>
+                <img src="myself2.jfif" alt="" id="image50" class="images">>
+                <img src="pic.jfif" alt="" id="image51" class="images">>
+                <img src="pic.jfif" alt="" id="image52" class="images">>
+                <img src="myself.jfif" alt="" id="image53" class="images">>
+                <img src="myself2.jfif" alt="" id="image54" class="images">>
+                <img src="calp.png" alt="" id="image55" class="images">>
+                <video src="cake.jfif" id="image56" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image57" class="images">>
+                <img src="myself2.jfif" alt="" id="image58" class="images">>
+                <img src="cake.jfif" alt="" id="image59" class="images">>
+                <img src="myself2.jfif" alt="" id="image60" class="images">>
+                <img src="pic.jfif" alt="" id="image61" class="images">>
+                <img src="pic.jfif" alt="" id="image62" class="images">>
+                <img src="myself.jfif" alt="" id="image63" class="images">>
+                <img src="myself2.jfif" alt="" id="image64" class="images">>
+                <img src="calp.png" alt="" id="image65" class="images">>
+                <video src="cake.jfif" id="image66" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image67" class="images">>
+                <img src="myself2.jfif" alt="" id="image68" class="images">>
+                <img src="cake.jfif" alt="" id="image69" class="images">>
+                <img src="myself2.jfif" alt="" id="image70" class="images">>
+                <img src="pic.jfif" alt="" id="image71" class="images">>
+                <img src="pic.jfif" alt="" id="image72" class="images">>
+                <img src="myself.jfif" alt="" id="image73" class="images">>
+                <img src="myself2.jfif" alt="" id="image74" class="images">>
+                <img src="calp.png" alt="" id="image75" class="images">>
+                <video src="cake.jfif" id="image76" class="images"></video>></video>
+                <img src="myself.jfif" alt="" id="image77" class="images">>
+                <img src="myself2.jfif" alt="" id="image78" class="images">>
+                <img src="cake.jfif" alt="" id="image79" class="images">>
+                <img src="myself2.jfif" alt="" id="image80" class="images">>
+            </div>
+        </div>
+        <div id="sixthscreen">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="phone.js"></script>
